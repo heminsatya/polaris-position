@@ -1,0 +1,51 @@
+/**
+ * Polaris Position Plugin v1.0.0
+ * MIT License github.com/heminsatya/polaris-plugins | © 2022 polarisui.com
+**/
+// -------------------------------------------------- //
+//                    Constructor                     //
+// -------------------------------------------------- //
+@use 'sass:math';
+@use "sass:map";
+
+@import "./bootstrap";
+
+
+/* -------------------------------------------------- */
+/*                       Position                     */
+/* -------------------------------------------------- */
+// -- Component Classes -- //
+/*
+* left
+*/
+@include component-class($positions-plugin, $name-position-left, "left", $strict-position);
+@include component-class($positions-negative, $name-position-left, "left", $strict-position);
+@include responsive-component-class($positions-plugin, $name-position-left, "left", $responsive-position, $strict-position);
+@include responsive-component-class($positions-negative, $name-position-left, "left", $responsive-position, $strict-position);
+
+
+/*
+* right
+*/
+@include component-class($positions-plugin, $name-position-right, "right", $strict-position);
+@include component-class($positions-negative, $name-position-right, "right", $strict-position);
+@include responsive-component-class($positions-plugin, $name-position-right, "right", $responsive-position, $strict-position);
+@include responsive-component-class($positions-negative, $name-position-right, "right", $responsive-position, $strict-position);
+
+
+/*
+* top
+*/
+@include component-class($positions-plugin, $name-position-top, "top", $strict-position);
+@include component-class($positions-negative, $name-position-top, "top", $strict-position);
+@include responsive-component-class($positions-plugin, $name-position-top, "top", $responsive-position, $strict-position);
+@include responsive-component-class($positions-negative, $name-position-top, "top", $responsive-position, $strict-position);
+
+
+/*
+* bottom
+*/
+@include component-class($positions-plugin, $name-position-bottom, "bottom", $strict-position);
+@include component-class($positions-negative, $name-position-bottom, "bottom", $strict-position);
+@include responsive-component-class($positions-plugin, $name-position-bottom, "bottom", $responsive-position, $strict-position);
+@include responsive-component-class($positions-negative, $name-position-bottom, "bottom", $responsive-position, $strict-position);
