@@ -1,5 +1,5 @@
 const msg = `
-    Polaris Position Plugin v.1.2.0
+    Polaris Position Plugin v1.3.0
 `
 
 module.exports = msg
