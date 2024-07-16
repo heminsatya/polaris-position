@@ -1,4 +1,4 @@
-# Polaris Position Plugin (v1.3.4)
+# Polaris Position Plugin (v1.4.1)
 
 In addition to the built-in features and components comes with [Polaris framework](https://github.com/heminsatya/polaris), you can also use a set of useful plugins.
 
